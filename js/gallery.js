@@ -90,9 +90,7 @@ const markup = images
         if (!image) return;
         const bigImage = image.dataset.source;
         const instance = basicLightbox.create(`
-            <div class="modal">
             <img src="${bigImage}" width="1112" height="640">
-            </div>
         `)
         instance.show()
     });     
